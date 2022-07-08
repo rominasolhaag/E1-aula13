@@ -10,5 +10,5 @@ while palabra_secreta != ingresa_numero():
     numero=int(input("Ingresa nuevamente un numero: "))
     print ("saliste")
     break
-usuario: int(input)
-    break
+
+    
