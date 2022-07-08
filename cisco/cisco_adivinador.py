@@ -2,6 +2,8 @@ import os
 os.system('cls')
 palabra_secreta= 777
 
+print("Bienvenido al juego de adivinador")
+
 def ingresa_numero():
     numero=int(input("Ingrese un numero: "))
 
