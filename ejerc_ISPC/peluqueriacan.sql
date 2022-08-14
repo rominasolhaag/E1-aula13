@@ -53,7 +53,7 @@ update Historial set fecha='2020-12-12' where id_historial =1;
 update Historial set fecha='2021-10-09' where id_historial =2;
 update Historial set fecha='2022-07-08' where id_historial =3; 
 
-
+-- para hacer la carga de la nueva mascota en historial id_perro tengo que insertar los nuevos valores en la tabla dueno, perro y recien historial
 insert into dueno (dni, nombre, apellido, telefono, domicilio)
 		values	(10914215, 'Maria', 'Amarfil',2641233123, 'lavalle 1071 s, san juan');
 insert into perro (id_perro,nombre, fecha_nac,sexo, dni_dueno) 
